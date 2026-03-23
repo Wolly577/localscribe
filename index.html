@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>LocalScribe | KI-Transkription für Windows. Lokal statt Cloud.</title>
+    <meta name="description"
+        content="KI-Transkription 100% offline auf Ihrem Windows-PC – ohne Cloud, ohne Abo. Ab 39 € einmalig. DSGVO-konform, § 203 StGB geeignet.">
+    <meta name="keywords"
+        content="KI Transkription offline, Diktatsoftware, § 203 StGB Transkription, DSGVO konform, Whisper KI Windows, Sprache zu Text lokal, LocalScribe">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://localscribe.de/">
+
+    <!-- hreflang SEO -->
+    <link rel="alternate" hreflang="de" href="https://localscribe.de/" />
+    <link rel="alternate" hreflang="en" href="https://localscribe.de/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://localscribe.de/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://localscribe.de/">
+    <meta property="og:title" content="LocalScribe | KI-Transkription für Windows. Lokal statt Cloud.">
+    <meta property="og:description" content="Transkribieren Sie vertrauliche Gespräche lokal auf Ihrem Windows-PC – ohne Cloud-Zwang und ohne laufende Abo-Kosten.">
+    <meta property="og:image" content="https://localscribe.de/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="LocalScribe">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LocalScribe | KI-Transkription für Windows. Lokal statt Cloud.">
+    <meta name="twitter:description" content="Transkribieren Sie vertrauliche Gespräche lokal auf Ihrem Windows-PC – ohne Cloud-Zwang und ohne laufende Abo-Kosten.">
+    <meta name="twitter:image" content="https://localscribe.de/images/og-image.png">
+
+    <!-- Fonts (lokal, DSGVO-konform) -->
+    <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://lokalskribe-licenses.martin-schmid5.workers.dev" crossorigin>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <style>
+    .lang-switcher { font-size: 0.875rem; color: var(--text-secondary); margin-left: 12px; }
+    .lang-switcher a { color: var(--text-secondary); text-decoration: none; }
+    .lang-switcher a:hover { color: var(--text-primary); }
+    .lang-switcher span { color: var(--text-primary); font-weight: 600; }
+    .footer-lang { font-size: 0.8rem; margin-top: 8px; display: block; color: var(--text-secondary); }
+    .footer-lang a { color: var(--text-secondary); text-decoration: none; }
+    .footer-lang a:hover { color: var(--text-primary); }
+    .footer-lang strong { color: var(--text-primary); }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/app/icon.png">
+</head>
+
+<body class="dark-theme">
+    <a href="#features" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:9999;padding:8px 16px;background:var(--primary-color);color:#fff;font-weight:600;text-decoration:none;">Zum Inhalt springen</a>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="LocalScribe Logo" class="logo-img" width="38" height="38">
+                <span class="logo-text">LocalScribe</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Preise</a>
+                <a href="#sicherheit">Sicherheit</a>
+                <a href="faq.html">FAQ</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#pricing" class="btn btn-primary">Jetzt sichern</a>
+            </div>
+            <div class="lang-switcher"><span>DE</span> | <a href="en/index.html">EN</a></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <div class="badge">Einführungspreis bis Q3 2026 – nur 39 € · Einmalzahlung</div>
+                    <h1>KI-Transkription. <br><span class="highlight">Lokal auf Ihrem PC.</span> <br>Ihre Daten bleiben bei Ihnen.</h1>
+                    <p class="subtitle">Windows-Software für lokale KI-Transkription – ohne Cloud, ohne Abo. Ihre Schweigepflicht (§ 203 StGB) bleibt gewahrt.</p>
+                    <p class="hero-definition" style="color: var(--text-secondary); font-size: 1rem; max-width: 700px; margin: 0.5rem auto;">LocalScribe ist eine Windows-Software für lokale KI-Transkription, die auf OpenAI Whisper Large-v3 basiert und Audiodateien vollständig offline auf dem eigenen PC verarbeitet — ohne Cloud, ohne Abo, ab 39 € Einmalzahlung.</p>
+                    <div class="hero-cta">
+                        <a href="#pricing" class="btn btn-primary btn-large">Jetzt für 39 € sichern</a>
+                        <p class="guarantee">inkl. 24 Monate Updates • Keine Abokosten</p>
+                    </div>
+
+                    <div class="ich-bin-section">
+                        <p class="ich-bin-label">Ich bin:</p>
+                        <div class="ich-bin-chips">
+                            <button class="ich-bin-chip" data-role="therapeut">Therapeut/in</button>
+                            <button class="ich-bin-chip" data-role="anwalt">Anwalt/Anwältin</button>
+                            <button class="ich-bin-chip" data-role="student">Student/in</button>
+                            <button class="ich-bin-chip" data-role="journalist">Journalist/in</button>
+                            <button class="ich-bin-chip" data-role="arzt">Arzt/Ärztin</button>
+                            <button class="ich-bin-chip" data-role="remote-worker">Remote-Worker</button>
+                            <button class="ich-bin-chip" data-role="content-creator">Content Creator</button>
+                            <button class="ich-bin-chip" data-role="datenschutz">Datenschutzbewusst</button>
+                        </div>
+                        <div class="ich-bin-panel" id="ich-bin-panel" hidden>
+                            <p id="ich-bin-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="lock-badge" aria-label="100% Offline — keine Cloud">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                        <span class="lock-badge-text">Lokal &amp; Sicher</span>
+                    </div>
+                    <img src="images/app/screenshot-dark.png" alt="LocalScribe Software — Offline KI-Transkription für Windows" width="1914" height="1079" class="app-mockup" fetchpriority="high" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem / Solution -->
+        <section class="problem-solution" id="features">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Warum ist Cloud-Transkription für vertrauliche Gespräche problematisch?</h2>
+                    <p class="answer-capsule" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid var(--accent-primary); background: rgba(88, 166, 255, 0.05);">Cloud-basierte Transkriptionsdienste wie Otter.ai oder Amberscript übertragen Audiodaten an externe Server. Für Berufsgeheimnisträger nach § 203 StGB — Ärzte, Anwälte, Therapeuten — ist das ein Datenschutzverstoß. LocalScribe löst dieses Problem durch vollständig lokale Verarbeitung auf dem Windows-PC.</p>
+                    <p class="subtitle max-w-700 mx-auto">Berufsgeheimnisträger wie Ärzte, Therapeuten und Anwälte (§ 203 StGB) müssen den Einsatz externer Cloud-Dienste besonders sorgfältig prüfen. Lokale Open-Source-Lösungen sind oft zu kompliziert, und klassische Offline-Software hat häufig einen hohen Einstiegspreis.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🔒</div>
+                        <h3>100% Offline</h3>
+                        <p>Ihre Audiodateien bleiben auf Ihrem Rechner; die Transkription läuft lokal statt in der Cloud.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">⚡</div>
+                        <h3>GPU-Beschleunigt</h3>
+                        <p>GPU-beschleunigt (NVIDIA CUDA + AMD/Intel Vulkan): LocalScribe transkribiert je nach System deutlich schneller als in Echtzeit.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">💰</div>
+                        <h3>Einmalkauf</h3>
+                        <p>Keine versteckten Abokosten. Sie zahlen einmalig und nutzen die Software für immer.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">💻</div>
+                        <h3>Windows-Installer</h3>
+                        <p>Einfache "Next-Next-Finish" Installation. Keine Programmierkenntnisse, keine Kommandozeile nötig.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🎥</div>
+                        <h3>Meetings &amp; Bildschirmaufnahmen</h3>
+                        <p>Zoom, Teams oder Google Meet aufgezeichnet? Laden Sie die Datei einfach in LocalScribe — Transkription komplett offline, ohne Cloud-Upload.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🎓</div>
+                        <h3>Vorlesungen &amp; Seminare</h3>
+                        <p>Studenten können aufgezeichnete Vorlesungen, Seminare oder Lernvideos automatisch transkribieren und als durchsuchbaren Text exportieren.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🎙️</div>
+                        <h3>Podcasts &amp; Content</h3>
+                        <p>Content Creator transkribieren Podcasts, YouTube-Videos oder Interviews — für Untertitel, Blogartikel oder Shownotes, ohne Abo-Kosten.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🛡️</div>
+                        <h3>Für alle Datenschutzbewussten</h3>
+                        <p>Nicht nur für Berufsgeheimnisträger: Wer seine Gespräche nicht in die Cloud schicken möchte, findet in LocalScribe die einfachste Offline-Lösung.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Einsatzmöglichkeiten: Mehr als nur Audio -->
+        <section class="use-cases-section" id="einsatz" style="padding: 64px 0; background: var(--bg-secondary, #111);">
+            <div class="container">
+                <div class="section-header text-center" style="margin-bottom: 2rem;">
+                    <h2>Mehr als nur Audiodateien transkribieren</h2>
+                    <p class="subtitle max-w-700 mx-auto">LocalScribe kann nicht nur Audiodateien transkribieren — nehmen Sie Ihren Bildschirm auf, zeichnen Sie Meetings auf oder sprechen Sie direkt ins Mikrofon. Alles wird lokal verarbeitet.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🖥️</div>
+                        <h3>Bildschirmaufnahme transkribieren</h3>
+                        <p>Nehmen Sie mit der Windows-eigenen Funktion (Win+G) oder einem Tool wie OBS Ihren Bildschirm auf — LocalScribe transkribiert den Ton anschließend vollständig offline.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">📋</div>
+                        <h3>Meeting-Protokolle automatisch</h3>
+                        <p>Aus der Transkription erstellt LocalScribe per KI eine Zusammenfassung — ideal als Protokoll für Zoom-, Teams- oder Google Meet-Besprechungen.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">🎤</div>
+                        <h3>Direkt ins Mikrofon sprechen</h3>
+                        <p>Kein Aufnahme-Tool nötig: Sprechen Sie direkt in LocalScribe. Ideal für Diktate, Notizen oder spontane Ideen — alles bleibt auf Ihrem PC.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">📁</div>
+                        <h3>Alle gängigen Formate</h3>
+                        <p>MP3, WAV, M4A, MP4, WebM und viele weitere Formate werden unterstützt — egal ob Audiodatei oder Videoaufnahme eines Meetings.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Section -->
+        <section class="comparison">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Was macht LocalScribe besser als Cloud-Transkriptionsdienste?</h2>
+                    <p class="answer-capsule" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid var(--accent-primary); background: rgba(88, 166, 255, 0.05);">LocalScribe nutzt OpenAI Whisper Large-v3 für KI-Transkription direkt auf dem PC. Die Software unterstützt über 99 Sprachen, GPU-Beschleunigung via NVIDIA CUDA und Export als PDF, DOCX, TXT oder SRT — alles ohne Internetverbindung. Sprechererkennung ist für die Professional Edition geplant.</p>
+                </div>
+                <div class="table-container">
+                    <table class="compare-table mx-auto">
+                        <thead>
+                            <tr>
+                                <th>Kriterium</th>
+                                <th>Cloud-Dienste</th>
+                                <th>Legacy-Software</th>
+                                <th class="highlight-col">LocalScribe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Daten verlassen Ihren PC</td>
+                                <td class="negative">❌ Upload nötig</td>
+                                <td class="warning">⚠️ Je nach Version</td>
+                                <td class="positive">✅ Nie</td>
+                            </tr>
+                            <tr>
+                                <td>§ 203 StGB konform</td>
+                                <td class="negative">❌ Zusätzliche Prüfung nötig</td>
+                                <td class="warning">⚠️ Je nach Produkt</td>
+                                <td class="positive">✅ Ja</td>
+                            </tr>
+                            <tr>
+                                <td>Preis</td>
+                                <td class="negative">Laufende Abokosten</td>
+                                <td class="negative">Häufig hoher Einstiegspreis</td>
+                                <td class="positive-price">39 € (Einführungspreis)</td>
+                            </tr>
+                            <tr>
+                                <td>AVV erforderlich</td>
+                                <td class="negative">Ja</td>
+                                <td class="warning">Je nach Version</td>
+                                <td class="positive">Nein (lokale Transkription)</td>
+                            </tr>
+                            <tr>
+                                <td>GPU-Beschleunigung</td>
+                                <td>Nein (Server)</td>
+                                <td>Nein</td>
+                                <td class="positive">✅ Ja (NVIDIA/AMD/Intel)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy / Trust Section -->
+        <section class="privacy-trust" id="sicherheit">
+            <div class="container text-center">
+                <div class="shield-icon">🛡️</div>
+                <h2>Ist LocalScribe DSGVO-konform und für Berufsgeheimnisträger geeignet?</h2>
+                <p class="answer-capsule" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid var(--accent-primary); background: rgba(88, 166, 255, 0.05);">LocalScribe verarbeitet alle Audiodaten ausschließlich lokal auf dem Windows-PC des Nutzers. Keine Daten werden an externe Server übertragen. Die Software unterstützt damit DSGVO-konforme Arbeitsabläufe und ist geeignet für Berufsgeheimnisträger nach § 203 StGB.</p>
+                <p class="subtitle max-w-700 mx-auto">LocalScribe wurde speziell für Berufe mit strengen Verschwiegenheitspflichten entwickelt. Unterstützen Sie die Einhaltung von § 203 StGB und DSGVO, indem sensible Inhalte bei der Transkription Ihren Rechner nicht verlassen.</p>
+                <div class="trust-badges">
+                    <span class="trust-badge">✓ § 203 StGB unterstützt</span>
+                    <span class="trust-badge">✓ konzipiert für DSGVO-Konformität</span>
+                    <span class="trust-badge">✓ Lokale Verarbeitung</span>
+                    <span class="trust-badge">✓ Made in Germany</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistiken / Key Facts (GEO-optimiert für KI-Zitate) -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">99+</div>
+                        <div class="stat-label">Unterstützte Sprachen</div>
+                        <div class="stat-detail">Whisper Large-v3 Sprachmodell</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">39 €</div>
+                        <div class="stat-label">Einmalzahlung</div>
+                        <div class="stat-detail">Kein Abo, keine versteckten Kosten</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Daten in der Cloud</div>
+                        <div class="stat-detail">100% lokale Verarbeitung</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24</div>
+                        <div class="stat-label">Monate Updates inklusive</div>
+                        <div class="stat-detail">Software läuft dauerhaft weiter</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- §203 StGB Berufe-Sektion -->
+        <section class="paragraf203-section" id="schweigepflicht">
+            <div class="container text-center">
+                <h2>Ihre Patienten, Mandanten und Klienten vertrauen Ihnen. LocalScribe schützt dieses Vertrauen.</h2>
+                <div class="paragraf203-grid">
+                    <span class="paragraf203-item">✓ Psychotherapeuten</span>
+                    <span class="paragraf203-item">✓ Ärzte &amp; Zahnärzte</span>
+                    <span class="paragraf203-item">✓ Rechtsanwälte</span>
+                    <span class="paragraf203-item">✓ Steuerberater</span>
+                    <span class="paragraf203-item">✓ Notare</span>
+                    <span class="paragraf203-item">✓ Sozialarbeiter</span>
+                </div>
+                <p class="paragraf203-cta">LocalScribe wurde speziell für Berufe unter § 203 StGB entwickelt — damit Sie KI nutzen können, ohne Ihre Schweigepflicht zu riskieren.</p>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-snippet" id="pricing">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Was kostet LocalScribe und warum gibt es kein Abo?</h2>
+                    <p class="answer-capsule" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; padding: 1rem; border-left: 3px solid var(--accent-primary); background: rgba(88, 166, 255, 0.05);">LocalScribe kostet einmalig 39 € und beinhaltet 24 Monate Updates — ohne versteckte Kosten, ohne Abo. Im Vergleich zu Cloud-Diensten wie Otter.ai (ca. 20 €/Monat) amortisiert sich die Investition bereits nach zwei Monaten.</p>
+                    <p class="subtitle">Kein Abo, keine versteckten Kosten. Sichern Sie sich jetzt den Einführungspreis.</p>
+                </div>
+                <p class="pricing-separator-note" style="text-align: center; font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 24px; max-width: 600px; margin-left: auto; margin-right: auto;">Alle Kernfunktionen sind in der Grundversion enthalten. Professional erweitert um Sprechererkennung und Berufspakete.</p>
+                <div class="pricing-grid">
+                    <!-- Grundversion Card -->
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3>Einführungspreis</h3>
+                            <p style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin: 0 0 8px 0; text-transform: uppercase; letter-spacing: 0.05em;">Grundversion — Transkription + KI + Export</p>
+                            <div class="price">
+                                39 <span>€</span>
+                            </div>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); margin: -8px 0 4px 0;">inkl. MwSt. · Frühbucher-Preis – ab Q3 2026 voraussichtlich 79 €</p>
+                            <p>Einmalig zahlen, dauerhaft nutzen — kein Ablaufdatum.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> 100% lokale Verarbeitung</li>
+                            <li><span class="check">✓</span> GPU-Beschleunigung</li>
+                            <li><span class="check">✓</span> 24 Monate Updates inklusive</li>
+                            <li><span class="check">✓</span> DSGVO-konform · § 203 StGB unterstützt</li>
+                            <li><span class="check">✓</span> Unlimitierte Transkriptionen</li>
+                            <li><span class="check">✓</span> Export (TXT, SRT, Markdown, JSON, PDF)</li>
+                            <li><span class="check">✓</span> KI-Zusammenfassung</li>
+                            <li><span class="check">✓</span> Chat mit Dokument — Rückfragen stellen (lokal, ohne Cloud)</li>
+                        </ul>
+                        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 10px;">ⓘ Sie erhalten den Download-Link sofort nach dem Kauf per E-Mail.</p>
+                        <label class="widerruf-checkbox" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 16px; cursor: pointer; font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary);">
+                            <input type="checkbox" id="widerruf-checkbox" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--accent-primary);">
+                            <span>Ich stimme ausdrücklich zu, dass der Download der Software sofort nach Zahlungseingang beginnt. Mir ist bewusst, dass ich damit mein <a href="widerruf.html" style="color: var(--accent-primary);">Widerrufsrecht</a> verliere.</span>
+                        </label>
+                        <div class="checkout-wrapper" id="checkout-wrapper">
+                            <button type="button" class="btn btn-primary btn-large btn-block" id="checkout-button" style="opacity: 0.5; pointer-events: none;">Jetzt für 39 € sichern</button>
+                            <p class="checkout-hint" id="checkout-hint">↑ Bitte erst die Checkbox oben bestätigen</p>
+                        </div>
+                        <p class="pricing-note">Sichere Zahlung über Stripe. <a href="widerruf.html" style="color: var(--text-secondary); text-decoration: underline;">Widerrufsbelehrung</a></p>
+                    </div>
+
+                    <!-- Professional Card (Coming Soon) -->
+                    <div class="pricing-card coming-soon">
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <p style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin: 0 0 8px 0; text-transform: uppercase; letter-spacing: 0.05em;">Erweiterte Version mit Profi-Features</p>
+                            <div class="price">179 <span>€</span></div>
+                            <p>Voraussichtlich ab Q4 2026</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Alles aus dem Einführungsangebot</li>
+                            <li><span class="check">✓</span> <strong>Sprechererkennung</strong> — erkennt automatisch wer spricht</li>
+                            <li><span class="check">✓</span> Berufspakete (Medizin, Recht, Therapie)</li>
+                            <li><span class="check">✓</span> Fachvokabular</li>
+                            <li><span class="check">✓</span> Priorisierter Support</li>
+                        </ul>
+                        <p style="font-size: 0.8rem; color: var(--accent-primary); margin-bottom: 12px; font-weight: 600;">🔔 Sprechererkennung kommt im nächsten großen Update.</p>
+                        <form id="notify-form" style="margin-bottom: 12px;" onsubmit="handleNotifySubmit(event)">
+                            <input type="text" name="website" id="hp-field-notify" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
+                            <input type="email" id="notify-email" placeholder="Ihre E-Mail-Adresse" required
+                                style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border-color, #333); background: var(--bg-secondary, #1a1a1a); color: var(--text-primary, #fff); font-size: 0.9rem; margin-bottom: 8px; box-sizing: border-box;">
+                            <button type="submit" class="btn btn-secondary btn-large btn-block">Benachrichtigen wenn verfügbar</button>
+                        </form>
+                        <p class="pricing-note">Verfügbar ab Q4 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kostenvergleich-Rechner -->
+        <section class="calculator-section" id="kostenrechner">
+            <div class="container calculator-container">
+                <div class="section-header text-center">
+                    <h2>Was kostet Sie der Wechsel?</h2>
+                    <p class="subtitle">Vergleichen Sie LocalScribe mit laufenden Cloud-Kosten.</p>
+                </div>
+                <div class="calculator-card">
+                    <label for="monthsSlider" class="calculator-slider-label">
+                        Nutzungszeitraum: <span id="monthsLabel">12 Monate</span>
+                    </label>
+                    <input type="range" id="monthsSlider" class="calculator-slider" min="2" max="36" value="12">
+                    <div class="calculator-costs">
+                        <div class="calculator-cost-item">
+                            <p class="calculator-label">Cloud-Abo (ca. 20 €/Monat)</p>
+                            <p class="calculator-value" id="cloudCost">240 €</p>
+                        </div>
+                        <div class="calculator-cost-item">
+                            <p class="calculator-label">LocalScribe (einmalig)</p>
+                            <p class="calculator-value calculator-value--highlight">39 €</p>
+                        </div>
+                    </div>
+                    <p class="calculator-result" id="savingsResult">Sie sparen 201 €!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-snippet" id="faq">
+            <div class="container faq-container">
+                <div class="section-header text-center">
+                    <h2>Häufig gestellte Fragen</h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Brauche ich eine Internetverbindung?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Nach der einmaligen Online-Aktivierung arbeitet LocalScribe vollständig offline. Beim Start wird kurz geprüft, ob Ihre Lizenz gültig ist — ohne Internetverbindung funktioniert die Software bis zu 30 Tage weiter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Welche Hardware wird benötigt?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Für optimale Geschwindigkeit empfehlen wir eine NVIDIA Grafikkarte (ab RTX 3060). Die Software läuft auch auf der CPU, ist dann aber etwas langsamer. Mindestanforderungen: Windows 10/11, 8 GB RAM, 5 GB freier Speicherplatz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Sind meine Daten wirklich sicher?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Für die Transkription werden keine Audio- oder Textinhalte an externe Server übertragen. Die gesamte KI-Verarbeitung läuft lokal auf Ihrer Hardware. Externe Dienste werden nur für Kauf, Lizenzierung und E-Mail-Zustellung genutzt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Was passiert nach den 24 Monaten Updates?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Die Software funktioniert weiterhin uneingeschränkt – Sie können LocalScribe ohne zeitliche Begrenzung nutzen. Sicherheits- und Kompatibilitätsupdates bleiben davon unberührt. Für neue Funktionen und Features können Sie optional einen Update-Pass erwerben.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Kann ich die Lizenz auf einen neuen PC übertragen?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Die Lizenz ist eine Einzelplatzlizenz. Bei einem Gerätewechsel hilft unser Support unter <a href="mailto:support@localscribe.de">support@localscribe.de</a> beim Umzug auf den neuen PC – ohne dass Sie eine zweite Lizenz kaufen müssen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Kann ich damit Zoom- oder Teams-Meetings transkribieren?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Ja. Nehmen Sie das Meeting als Audio- oder Videodatei auf (z.B. mit der eingebauten Aufnahmefunktion von Zoom, Teams oder Google Meet) und laden Sie die Datei anschließend in LocalScribe. Die Transkription erfolgt komplett offline auf Ihrem PC — kein Cloud-Upload, keine Datenweitergabe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Ist LocalScribe nur für Ärzte und Anwälte?</span>
+                            <span class="faq-chevron">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Nein. LocalScribe eignet sich für jeden, der Wert auf Datenschutz legt — von Studenten, die Vorlesungen aufnehmen, über Freelancer und Remote-Worker, die Meeting-Protokolle brauchen, bis hin zu Content Creators, die Podcasts oder Videos transkribieren. Die Berufsgeheimnisträger-Compliance (§ 203 StGB) ist ein Plus, aber kein Pflichtmerkmal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 12px;">
+                        <img src="images/logo.png" alt="LocalScribe Logo" class="logo-img" width="38" height="38">
+                        <span class="logo-text">LocalScribe</span>
+                    </a>
+                    <p>Ihre Gespräche gehören Ihnen – nicht der Cloud.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Produkt</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Preise</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Unternehmen</h4>
+                    <a href="mailto:support@localscribe.de">Kontakt</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Rechtliches</h4>
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutzerklärung</a>
+                    <a href="agb.html">AGB</a>
+                    <a href="widerruf.html">Widerrufsrecht</a>
+                </div>
+            </div>
+            <div class="footer-newsletter" style="border-top: 1px solid var(--border-color, #333); padding-top: 24px; margin-top: 24px; margin-bottom: 24px;">
+                <h4 style="margin-bottom: 8px; font-size: 0.95rem;">📬 Newsletter: Updates & neue Features</h4>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Bleiben Sie informiert über Updates, neue Features und Sonderangebote.</p>
+                <form id="newsletter-form" onsubmit="handleNewsletterSubmit(event)" style="display: flex; gap: 8px; flex-wrap: wrap; max-width: 480px;">
+                    <input type="text" name="website" id="hp-field" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
+                    <input type="email" id="newsletter-email" placeholder="Ihre E-Mail-Adresse" required
+                        style="flex: 1; min-width: 200px; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--border-color, #333); background: var(--bg-secondary, #1a1a1a); color: var(--text-primary, #fff); font-size: 0.875rem; box-sizing: border-box;">
+                    <button type="submit" class="btn btn-secondary" style="white-space: nowrap; padding: 9px 18px; font-size: 0.875rem;">Anmelden</button>
+                </form>
+                <p style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 8px;">Ihre E-Mail wird über Hostinger Reach (EU-Server) verarbeitet und ausschließlich für Updates zu LocalScribe genutzt. Kein Spam, jederzeit abmeldbar. Details in unserer <a href='datenschutz.html'>Datenschutzerklärung</a>.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LokalSkribe UG — LocalScribe. Alle Rechte vorbehalten.<span style="color: var(--text-secondary); font-size: 0.75rem; margin-left: 8px;">Version 1.0 — März 2026</span></p>
+                <span class="footer-lang"><strong>DE</strong> | <a href="en/index.html">EN</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://localscribe.de/#org",
+        "name": "LokalSkribe UG (haftungsbeschränkt)",
+        "url": "https://localscribe.de",
+        "logo": "https://localscribe.de/images/app/icon.png",
+        "email": "support@localscribe.de",
+        "foundingDate": "2025",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "DE"
+        },
+        "sameAs": ["https://github.com/nicemartini"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Brauche ich eine Internetverbindung?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kauf und Aktivierung laufen online. Nach der einmaligen Lizenz-Aktivierung läuft LocalScribe vollständig offline — keine regelmäßige Online-Prüfung, kein Lizenzserver-Check beim Start."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welche Hardware wird benötigt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Für optimale Geschwindigkeit empfehlen wir eine NVIDIA Grafikkarte (ab RTX 3060). Die Software läuft auch auf der CPU, ist dann aber etwas langsamer. Mindestanforderungen: Windows 10/11, 8 GB RAM, 5 GB freier Speicherplatz."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Sind meine Daten wirklich sicher?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Für die Transkription werden keine Audio- oder Textinhalte an externe Server übertragen. Die gesamte KI-Verarbeitung läuft lokal auf Ihrer Hardware. Externe Dienste werden nur für Kauf, Lizenzierung und E-Mail-Zustellung genutzt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Was passiert nach den 24 Monaten Updates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Die Software funktioniert weiterhin uneingeschränkt – Sie können LocalScribe ohne zeitliche Begrenzung nutzen. Sicherheits- und Kompatibilitätsupdates bleiben davon unberührt. Für neue Funktionen und Features können Sie optional einen Update-Pass erwerben."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kann ich die Lizenz auf einen neuen PC übertragen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Die Lizenz ist eine Einzelplatzlizenz. Bei einem Gerätewechsel hilft unser Support unter support@localscribe.de beim Umzug auf den neuen PC – ohne dass Sie eine zweite Lizenz kaufen müssen."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kann ich damit Zoom- oder Teams-Meetings transkribieren?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja. Nehmen Sie das Meeting als Audio- oder Videodatei auf und laden Sie die Datei anschließend in LocalScribe. Die Transkription erfolgt komplett offline auf Ihrem PC — kein Cloud-Upload, keine Datenweitergabe."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Ist LocalScribe nur für Ärzte und Anwälte?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nein. LocalScribe eignet sich für jeden, der Wert auf Datenschutz legt — von Studenten über Freelancer und Remote-Worker bis hin zu Content Creators. Die Berufsgeheimnisträger-Compliance (§ 203 StGB) ist ein Plus, aber kein Pflichtmerkmal."
+                }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "LocalScribe",
+        "operatingSystem": "Windows 10, Windows 11",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "SpeechRecognitionApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "39.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-09-30",
+            "url": "https://localscribe.de/#pricing",
+            "seller": {
+                "@type": "Organization",
+                "name": "LokalSkribe UG (haftungsbeschränkt)"
+            }
+        },
+        "description": "100% offline KI-Transkriptionssoftware für Windows. DSGVO-konform und § 203 StGB konform.",
+        "softwareVersion": "1.0.0",
+        "inLanguage": "de",
+        "featureList": ["Offline KI-Transkription", "Whisper Large-v3 Spracherkennung", "99+ Sprachen", "GPU-beschleunigt", "DSGVO-konform", "Sprechererkennung (Professional Edition)", "PDF/DOCX/SRT Export"],
+        "downloadUrl": "https://localscribe.de/#pricing",
+        "screenshot": "https://localscribe.de/images/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Wie transkribiere ich eine Audiodatei mit LocalScribe?",
+        "description": "Schritt-für-Schritt-Anleitung zur lokalen Transkription mit LocalScribe auf Windows.",
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "LocalScribe starten",
+                "text": "Starten Sie LocalScribe auf Ihrem Windows-PC. Die Software läuft vollständig offline."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Audiodatei laden",
+                "text": "Ziehen Sie Ihre Audiodatei (MP3, WAV, M4A oder andere Formate) in das Programm oder klicken Sie auf 'Datei öffnen'."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Transkription starten",
+                "text": "Klicken Sie auf 'Transkribieren'. Die KI verarbeitet die Datei lokal auf Ihrer Hardware — nichts wird hochgeladen."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Ergebnis exportieren",
+                "text": "Exportieren Sie das Transkript als PDF, DOCX, TXT oder SRT-Untertiteldatei."
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Startseite",
+                "item": "https://localscribe.de/"
+            }
+        ]
+    }
+    </script>
+    <script src="js/main.js" defer></script>
+    <script src="js/pricing.js" defer></script>
+</body>
+
+</html>

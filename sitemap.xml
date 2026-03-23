@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Deutsche Seiten -->
+  <url>
+    <loc>https://localscribe.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/legal-notice.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/datenschutz.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/privacy-policy.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/agb.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/agb.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/terms.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/widerruf.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/widerruf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/cancellation-policy.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://localscribe.de/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/faq.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Englische Seiten -->
+  <url>
+    <loc>https://localscribe.de/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/faq.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/en/legal-notice.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/legal-notice.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/impressum.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/datenschutz.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/agb.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://localscribe.de/en/cancellation-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://localscribe.de/en/cancellation-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://localscribe.de/widerruf.html"/>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
